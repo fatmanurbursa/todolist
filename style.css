@@ -24,6 +24,15 @@ input{
     padding-bottom: 5px;
 }
 
+input:focus{
+    outline: none !important;
+}
+input::placeholder{
+
+    color:rgb(102, 101, 101) !important;
+
+}
+
 
 ul{
     list-style-type:none;
@@ -75,4 +84,67 @@ ul li{
     border:1px solid red;
     background-color: red;
     border-radius: 8px;
+}
+
+button{
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid black;
+
+}
+p{
+
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+
+
+.bilgilendirme{
+    float: right;
+    background-color:rgb(162, 161, 161,0.2) !important;
+    margin: 30px;
+    padding-top:8px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    border-radius: 15px !important;
+    display: none !important;
+s
+}
+
+.yenibilgilendirme{
+    float: right;
+    background-color:rgb(162, 161, 161,0.2) !important;
+    margin: 30px;
+    padding-top:8px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    border-radius: 15px !important;
+   
+
+}
+
+#iconbilgi{
+float:right ;
+background-color: rgb(255, 0, 0,0.3);
+padding: 3px;
+
+
+
+}
+
+#iconbilgi:hover{
+
+   
+background-color: rgb(255, 0, 0,0.5);
+cursor: pointer !important;
+
+
+}
+
+#p2{
+    margin-top:10px;
 }
